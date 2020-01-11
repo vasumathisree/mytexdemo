@@ -1,0 +1,75 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Mathematical typesetting}
+\author{silpa}
+\maketitle
+
+\chapter{equations}
+\section{Inline Mode}
+Linear equation: $ x+y=0 $ and $ x^{31}$
+
+\section{Displayed Mode}
+\underline{unnumbered}\\
+In physics,the mass energy equivalence is started by the equation $$ E=mc^2 $$discovered in 1985\\ \\
+
+\underline{numbered}\\ \\
+In natural units,
+\begin{displaymath}
+c=1
+\end{displaymath}
+
+The formula identified
+\begin{equation}
+c=a+b
+\end{equation}
+\section{Aligning Equation}
+\begin{align*}
+x+3y+4z&=2 \\
+3y-4z&=5\\
+3&=4
+\end{align*}
+\section{fraction}
+$$ \frac{x+3}{4} $$
+\section{subscript and suprscript}
+$$ a_{10} $$ 
+$$ a_1 $$
+$$ x=\frac{-b \pm \sqrt{b^2-4ac}}{2a} $$
+
+\section{special characters}
+\{ \& \}
+
+\section{matrices}
+1,plain\\
+$$
+\begin{matrix}
+1 & 2 & 3 \\
+A & B & C
+\end{matrix}
+$$ \\
+$$
+\begin{pmatrix}
+1 & 2 & 3 \\
+A & B & C
+\end{pmatrix}
+$$
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\
+A & B & C
+\end{bmatrix}
+$$\\
+
+$$
+\begin{vmatrix}
+1 & 2 & 3 \\
+A & B & C
+
+\end{vmatrix}
+$$
+\section{Dispaly style}
+$f(x)=\frac{1}{1+x} $ can be set with a different style:$ f(x)=\displaystyle\frac{1}{1+x} $
+\end{document}
+
